@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(2, 16, 11, 0.4);
+    border-bottom: 1.5px solid rgba(232, 249, 242, 0.15);
+    backdrop-filter: blur(7.5px);
+}
+.leftside, .rightside{
+    list-style-type: none;
+    border: solid;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    ;
+    
+
+}
+.leftside li, .rightside li{
+    display: inline-block;
+    width: auto;
+}
+.rightside{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+
+}
+.leftside{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+
+}
+
+
+
+
+
